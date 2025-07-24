@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/evan-kinney/macos-extensions/compare/v1.0.0...v1.1.0) (2025-07-24)
+
+
+### Features
+
+* Add Open in IntelliJ IDEA CE workflow ([c625a7d](https://github.com/evan-kinney/macos-extensions/commit/c625a7d050d77847de4dbaf5875e2f83f079113b))
+
 # 1.0.0 (2025-07-01)
 
 
