@@ -8,6 +8,10 @@ A collection of useful macOS Automator workflows that add context menu options t
 
 Right-click any file or folder in Finder → "Quick Actions" → "Open in Visual Studio Code"
 
+### Open in IntelliJ IDEA CE
+
+Right-click any file or folder in Finder → "Quick Actions" → "Open in IntelliJ IDEA CE"
+
 ### Open in iTerm
 
 Right-click any folder in Finder → "Quick Actions" → "Open in iTerm"
