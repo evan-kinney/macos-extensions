@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/evan-kinney/macos-extensions/compare/v1.2.0...v1.2.1) (2025-07-25)
+
+
+### Bug Fixes
+
+* Update `README.md` to include Open in GitHub Desktop workflow ([2bad2bc](https://github.com/evan-kinney/macos-extensions/commit/2bad2bc7b35f01a9a50345e40f26951db3148bec))
+
 # [1.2.0](https://github.com/evan-kinney/macos-extensions/compare/v1.1.0...v1.2.0) (2025-07-25)
 
 
