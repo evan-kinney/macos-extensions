@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/evan-kinney/macos-extensions/compare/v1.1.0...v1.2.0) (2025-07-25)
+
+
+### Features
+
+* Add Open in GitHub Desktop workflow ([4fc8938](https://github.com/evan-kinney/macos-extensions/commit/4fc8938aa298d26f0ab32a5d202a1668df9ebab6))
+
 # [1.1.0](https://github.com/evan-kinney/macos-extensions/compare/v1.0.0...v1.1.0) (2025-07-24)
 
 
