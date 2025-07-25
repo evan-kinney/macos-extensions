@@ -4,9 +4,9 @@ A collection of useful macOS Automator workflows that add context menu options t
 
 ## What's Included
 
-### Open in Visual Studio Code
+### Open in GitHub Desktop
 
-Right-click any file or folder in Finder → "Quick Actions" → "Open in Visual Studio Code"
+Right-click any folder in Finder → "Quick Actions" → "Open in GitHub Desktop"
 
 ### Open in IntelliJ IDEA CE
 
@@ -15,6 +15,10 @@ Right-click any file or folder in Finder → "Quick Actions" → "Open in Intell
 ### Open in iTerm
 
 Right-click any folder in Finder → "Quick Actions" → "Open in iTerm"
+
+### Open in Visual Studio Code
+
+Right-click any file or folder in Finder → "Quick Actions" → "Open in Visual Studio Code"
 
 ## Installation
 
