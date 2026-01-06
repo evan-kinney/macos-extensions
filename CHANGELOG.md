@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/evan-kinney/macos-extensions/compare/v1.2.1...v1.3.0) (2026-01-06)
+
+
+### Bug Fixes
+
+* Update `Add to Apple Music` icon ([ea0a6ae](https://github.com/evan-kinney/macos-extensions/commit/ea0a6aef4544ba8cb6671db2e89328d342c61a1c))
+
+
+### Features
+
+* Add "Add to Apple Music" workflow with metadata generation and file handling ([f79cef9](https://github.com/evan-kinney/macos-extensions/commit/f79cef971e80ec04425370b2cd05808e5cf4e8b0))
+
 ## [1.2.1](https://github.com/evan-kinney/macos-extensions/compare/v1.2.0...v1.2.1) (2025-07-25)
 
 
