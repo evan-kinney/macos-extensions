@@ -8,7 +8,7 @@
 			<key>NSBackgroundColorName</key>
 			<string>background</string>
 			<key>NSIconName</key>
-			<string>NSTouchBarAdd</string>
+			<string>workflowCustomImageTemplate</string>
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
