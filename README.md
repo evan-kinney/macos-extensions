@@ -115,6 +115,73 @@ If metadata lookup fails:
 - Verify your AcoustID API key is set correctly
 - The file may not be in the AcoustID database
 
+### Copy to Server
+
+**Requirements:**
+
+- Python 3
+- SSH access to at least one server configured in `~/.ssh/config`
+- For password authentication: `sshpass` (install with `brew install sshpass`)
+
+**Installation:**
+
+1. Double-click `Copy to Server.workflow`
+2. Click "Install" when prompted
+
+The workflow will automatically create a Python virtual environment at `~/.local/venvs/copy-to-server` on first run.
+
+**Usage:**
+
+1. Right-click on any file(s) or folder(s) in Finder
+2. Select "Quick Actions" → "Copy to Server"
+3. The workflow will:
+   - Display a dialog with servers from your SSH config
+   - Allow you to select a destination path with autocomplete
+   - Prompt for a password if needed (no SSH key or key requires passphrase)
+   - Copy the selected files to the remote server via SCP
+
+**Features:**
+
+- Parses `~/.ssh/config` to populate server dropdown
+- Supports SSH key authentication (IdentityFile)
+- Supports password authentication (requires `sshpass`)
+- Dynamic destination path autocomplete via SSH
+- Handles multiple file/folder selections
+- Dark mode support for dialog interface
+- Progress feedback and error handling
+
+**SSH Config Setup:**
+
+Your `~/.ssh/config` should contain entries like:
+
+```ssh
+Host myserver
+  HostName 192.168.1.100
+  User username
+  IdentityFile ~/.ssh/id_rsa
+```
+
+**Notes:**
+
+- For password authentication without an SSH key, install `sshpass`: `brew install sshpass`
+- The destination path autocomplete queries directories on the remote server
+- Default destination suggestions include: `~/`, `~/Desktop/`, `~/Documents/`, `~/Downloads/`
+- Wildcards (`*`, `?`) in SSH config Host entries are ignored
+
+**Dependencies:**
+
+- `tkinter` - GUI dialogs (included with Python on macOS)
+
+**Troubleshooting:**
+
+If copy fails:
+
+- Verify your SSH config is correctly formatted
+- Test SSH connection manually: `ssh <hostname>`
+- For password auth, ensure `sshpass` is installed
+- Check file permissions on the destination server
+- Verify network connectivity to the remote server
+
 ## License
 
 See the [LICENSE](LICENSE) file for details.
