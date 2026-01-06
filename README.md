@@ -17,27 +17,23 @@ A collection of useful macOS Automator workflows that add context menu options t
 
 ## Detailed Installation Instructions
 
-### Open in Visual Studio Code
+### Open in GitHub Desktop
 
-**Requirements:**
+Right-click any folder in Finder → "Quick Actions" → "Open in GitHub Desktop"
 
-- Visual Studio Code must be installed
+### Open in IntelliJ IDEA CE
 
-**Installation:**
-
-1. Double-click `Open in Visual Studio Code.workflow`
-2. Click "Install" when prompted
-
-**Usage:**
-
-1. Right-click any file or folder in Finder
-2. Select "Quick Actions" → "Open in Visual Studio Code"
+Right-click any file or folder in Finder → "Quick Actions" → "Open in IntelliJ IDEA CE"
 
 ### Open in iTerm
 
 **Requirements:**
 
-- iTerm must be installed (download from <https://iterm2.com>)
+### Open in Visual Studio Code
+
+Right-click any file or folder in Finder → "Quick Actions" → "Open in Visual Studio Code"
+
+## Installation
 
 **Installation:**
 
