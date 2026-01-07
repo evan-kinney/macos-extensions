@@ -115,7 +115,7 @@ If metadata lookup fails:
 
 **Requirements:**
 
-- Python 3
+- Python 3 (install with `brew install python@3.14 python-tk@3.14 && brew link --overwrite python@3.14`)
 - SSH access to at least one server configured in `~/.ssh/config`
 - For password authentication: `sshpass` (install with `brew install sshpass`)
 
