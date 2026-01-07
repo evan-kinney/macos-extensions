@@ -45,6 +45,10 @@ class SSHConfigParser:
                         self.hosts.append(current_host)
                     
                     host_name = line.split('Host ', 1)[1].strip()
+                    # Remove surrounding quotes if present
+                    if (host_name.startswith('"') and host_name.endswith('"')) or \
+                       (host_name.startswith("'") and host_name.endswith("'")):
+                        host_name = host_name[1:-1]
                     # Skip wildcard hosts
                     if '*' not in host_name and '?' not in host_name:
                         current_host = {
